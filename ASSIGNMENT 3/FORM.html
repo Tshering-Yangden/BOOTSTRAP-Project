@@ -1,0 +1,185 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>FORM</title>
+      <link rel="stylesheet" href="bootstrap.css">
+      <style>
+        .div1{
+          float: left;
+          margin-left: 500px;
+        }
+      
+
+      </style>
+  </head>
+<body style="background-color:rgb(110, 74, 74) ;">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+
+      <img src="9.png" height="50PX" width="50px">
+      <a class="navbar-brand" href="home.html">HOME</a>
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+     </button>
+
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      
+      <li class="nav-item">
+        <a class="nav-link" href="MENU.html">MENU</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">ABOUT-US</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="gallery.html">GALLERY</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">CONTACT-US</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" href="#">LOGIN FORM</a>
+        </li>
+      </ul>
+    
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+  </nav>
+  <br><br><br><br>
+      <h1 style="text-align: center;color: black;">LOG IN FORM</h1>
+      <div class="container">
+      <div style="background-color: darkgray;" class="jambotron">
+        <form >
+      <div class="row g-3">
+          <div class="col">
+            <br>
+                <!--PERSONAL DETAILS FORM-->
+            <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+          </div>
+          <br>
+          <div class="col">
+            <br>
+            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+          </div>
+        </div>
+      
+      
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Password</label>
+            <input type="password" class="form-control" id="inputPassword4">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Address</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress2" class="form-label">Address 2</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+          </div>
+          <div class="col-md-6">
+            <label for="inputCity" class="form-label">City</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+          <div class="form-group col-md-4">
+              <label for="inputState">State</label>
+              <select id="inputState" class="form-control">
+                <option selected><md>THIMPHU</md></option>
+                <option>PARO</option>
+                <option>HAA</option>
+                <option>GASA</option>
+                <option>PUNAKHA</option>
+                <option>SARPANG</option>
+                <option>TSIRANG</option>
+                <option>WANGDUE</option>
+                <option>CHUKHA</option>
+                <option>SAMDRUP DZONGKHAR</option>
+                <option>PEMAGAYTSHEL</option>
+                <option>ZHEMGAG</option>
+                <option>MONGAR</option>
+                <option>TRONGSA</option>
+                <option>BUMTHANG</option>
+                </select>
+            </div>
+            <!--ZIP-->
+          <div class="col-md-2">
+            <label for="inputZip" class="form-label">Gewog</label>
+            <input type="text" class="form-control" id="inputZip">
+          </div>
+          <!--RIDO-->
+          <fieldset class="row mb-3">
+              <legend class="col-form-label col-sm-2 pt-0">Gender</legend>
+              <div class="col-sm-10">
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                  <label class="form-check-label" for="gridRadios1">
+                    male
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                  <label class="form-check-label" for="gridRadios2">
+                    female
+                  </label>
+                </div>
+                </div> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <!--textarea-->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <!--textarea-->
+              <!--textarea-->
+            </fieldset>
+            <br><br>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Example textarea</label>
+              <textarea style="width: 500px;" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <!--CHECK OUT-->
+            <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                Check me out
+              </label>
+            </div>
+          </div>
+          
+        
+      
+        <!--SUBMITs-->
+        <div class="col-12" style="text-align: center;">
+          <button type="submit" class="btn btn-success">Sign in</button>
+          <button type="submit" class="btn btn-success">Sign up</button>
+      </div>
+    </form>
+
+      </div>
+      <br><br><br>
+      <div class="div1">
+        <ul class="pagination justify-content-end">
+          <li class="page-item">
+            <a class="page-link" href="#" tabindex="-1">Previous</a>
+          </li>
+          <li class="page-item"><a class="page-link" href="home.html">1</a></li>
+          <li class="page-item"><a class="page-link" href="MENU.html">2</a></li>
+          <li class="page-item"><a class="page-link" href="about.html">3</a></li>
+          <li class="page-item"><a class="page-link" href="gallery.html">4</a></li>
+          <li class="page-item"><a class="page-link" href="contact.html">5</a></li>
+          <li class="page-item"><a class="page-link" href="FORM.html">next</a></li>
+          
+          </li>
+        </ul>
+      </div>
+    </div>
+    <br>
+      
+    
+  </body>
+  </html>
